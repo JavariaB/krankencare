@@ -1,20 +1,4 @@
-# # Use the official PHP image as the base image
-# FROM php:7.4-apache
 
-# # Install the mysqli extension for PHP
-# RUN docker-php-ext-install mysqli
-
-# # Set the working directory inside the container
-# WORKDIR /var/www/html
-
-# # Copy the PHP application files to the working directory
-# COPY . /var/www/html
-
-# # Expose port 80 for the Apache server
-# EXPOSE 80
-
-# # Start the Apache server
-# CMD ["apache2-foreground"]
 
 FROM php:7.3-apache
 
