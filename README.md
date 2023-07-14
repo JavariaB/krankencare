@@ -45,7 +45,7 @@ TEAM NAME: 'Krankencare'
   - I hope you like it! :)
  
 
-
+</br></br></br>
 
 - A message:
   We tried hard to make it run as a one click application but we could not do so. There is a Dockerfile in it which you can download and manually run on docker and it should work but for guranteed successful running of application on your localhost, please follow manual guide above.
