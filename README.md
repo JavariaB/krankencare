@@ -47,4 +47,12 @@ TEAM NAME: 'Krankencare'
 - A message:
   We tried hard to make it run as a one click application but we could not do so. There is a Dockerfile in it which you can download and manually run on docker and it should work but for guranteed successful running of application on your localhost, please follow manual guide above.
 
-Thank you!
+- Test Repository
+  Following is the link to our test repository where we have been trying to make codespaces work.
+  https://github.com/JavariaB/krankencare-test
+  The error we get when we run the app on codespaces is
+  
+  "Warning: mysqli_connect(): (HY000/2002): No such file or directory in /var/www/html/index.php on line 9
+
+  Fatal error: Uncaught Error: Call to a member function close() on bool in /var/www/html/index.php:84 Stack trace: #0 {main} thrown in     /var/www/html/index.php on line 84"
+
