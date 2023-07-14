@@ -11,7 +11,7 @@ COPY . /var/www/html
 
 EXPOSE 80
 
-ENV DB_HOST=host.docker.internal \
+ENV DB_HOST=localhost \
     DB_USER=root \
     DB_PASSWORD=  \
     DB_NAME=krankencare
