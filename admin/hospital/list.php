@@ -10,7 +10,7 @@ $error = $success = '';
 
 $key = 0;
 
-$conn = mysqli_connect('host.docker.internal', 'root', '', 'krankencare');
+$conn = mysqli_connect('localhost', 'root', '', 'krankencare');
 
 try {
 	if (isset($_GET['action']) && $_GET['action'] == 'delete' && isset($_GET['id']) && !empty($_GET['id'])) {
