@@ -10,7 +10,7 @@ function runFetchSQL($sql, $binding = null, $param = null)
 {
 	$rows = [];
 
-	$conn = mysqli_connect('host.docker.internal', 'root', '', 'krankencare');
+	$conn = mysqli_connect('localhost', 'root', '', 'krankencare');
 
 	$sql = $conn->prepare($sql);
 
