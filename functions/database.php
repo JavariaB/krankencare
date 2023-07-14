@@ -2,7 +2,7 @@
 
 function connectDatabase()
 {
-	$connection = mysqli_connect('host.docker.internal', 'root', '', 'krankencare');
+	$connection = mysqli_connect('localhost', 'root', '', 'krankencare');
 
 	if (!$connection) {
 		throw new Exception('Unable to connect to the database.');
