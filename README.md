@@ -35,6 +35,8 @@ TEAM NAME: 'Krankencare'
     - PHP
     - MySQL
 
+      </br>
+
 - Manual guide to run it on your own localhost
 
   - clone repo in C:\xampp\htdocs
@@ -45,7 +47,7 @@ TEAM NAME: 'Krankencare'
   - I hope you like it! :)
  
 
-</br></br></br>
+</br></br></br></br></br>
 
 - A message:
   We tried hard to make it run as a one click application but we could not do so. There is a Dockerfile in it which you can download and manually run on docker and it should work but for guranteed successful running of application on your localhost, please follow manual guide above.
@@ -53,7 +55,7 @@ TEAM NAME: 'Krankencare'
 - Test Repository
   Following is the link to our test repository where we have been trying to make codespaces work.
   https://github.com/JavariaB/krankencare-test
-  The error we get when we run the app on codespaces is
+  The error we get when we run the app on codespaces is following or similar.
   
   "Warning: mysqli_connect(): (HY000/2002): No such file or directory in /var/www/html/index.php on line 9
 
