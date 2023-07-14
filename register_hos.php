@@ -4,7 +4,7 @@ session_start();
 
 $error = $success = '';
 
-$conn = mysqli_connect('host.docker.internal', 'root', '', 'krankencare');
+$conn = mysqli_connect('localhost', 'root', '', 'krankencare');
 
 $validRoles = ['ambulance_staff', 'hospital_staff'];
 
