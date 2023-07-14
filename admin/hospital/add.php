@@ -8,7 +8,7 @@ if (!isset($_SESSION['id']) || empty($_SESSION['id'])) header('Location: ../../i
 
 $error = $success = '';
 
-$conn = mysqli_connect('host.docker.internal', 'root', '', 'krankencare');
+$conn = mysqli_connect('localhost', 'root', '', 'krankencare');
 
 $availability = ['1', '0'];
 
