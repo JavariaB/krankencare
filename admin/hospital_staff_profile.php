@@ -7,7 +7,7 @@ if (!isset($_SESSION['id']) || empty($_SESSION['id'])) header('Location: ../inde
 $error = $success = '';
 $errors = [];
 
-$conn = mysqli_connect('host.docker.internal', 'root', '', 'krankencare');
+$conn = mysqli_connect('localhost', 'root', '', 'krankencare');
 
 $validRoles = ['ambulance_staff', 'hospital_staff'];
 
