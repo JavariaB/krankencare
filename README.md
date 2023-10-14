@@ -1,4 +1,4 @@
-TEAM NAME: 'Krankencare'
+'Krankencare'
 
 - Introduction:
   Krankencare is a PHP-based application made to make it easier to find hospitals with open beds using a postal code. With the use of HTML, CSS, and JavaScript, this user-friendly program creates a fluid and simple user interface. Krankencare uses a MySQL database so that customers can enter a postal code and get a list of hospitals and their corresponding bed availability. The application's UI is made to be snappy and aesthetically pleasing, improving usage on a variety of devices. Users of Krankencare may quickly obtain current hospital information and make educated selections while seeking medical attention. Through the integration of PHP, HTML, CSS, JavaScript, and MySQL, it takes a complete approach that guarantees effective data management and a seamless user experience throughout the hospital search process.
